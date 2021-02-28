@@ -14,4 +14,9 @@ An example approach to covering a Computer Science, Programing, and Coding curri
 
 Notes:
 1. "cut-up" style puzzles where for a group activity different people are given different parts of a large puzzle to then put together.
-2. automatic generation of new problems for practice?
+
+2. basic skills and full interview questions
+
+3. 'from scratch' and existing resource use
+
+4. automatic generation of new problems for practice?
