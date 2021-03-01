@@ -12,6 +12,12 @@ The plan is to offer a set of notebooks that cover code-interview and computer s
 
 An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
 
+A draft 'intro / starter' notebook is here, to start story and introduce how notebooks are used:
+https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m?usp=sharing
+
+
+
+
 Notes:
 1. "cut-up" style puzzles where for a group activity different people are given different parts of a large puzzle to then put together.
 
