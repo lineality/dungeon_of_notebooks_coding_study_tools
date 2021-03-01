@@ -2,7 +2,7 @@ dungeon_of_notebooks_coding_study_tools
 
 # Dungeon of Notebooks 
 
-(Note: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ is another command-line based coding study experiment.) 
+(Note: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ is story-based coding study experiment, one which is focused on command-line terminals rather than Notebooks.) 
 
 Dungeon of Notebooks is a blending of python notebooks, code-challenges or (coding-interview questions), and story based games or RPG Dungeon games (role playing games).
 
