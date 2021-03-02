@@ -18,11 +18,14 @@ https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m?usp=sh
 
 
 
-Notes:
-1. "cut-up" style puzzles where for a group activity different people are given different parts of a large puzzle to then put together.
+### Notes:
+1. "cut-up" style puzzles where, for a group activity, different users/students are given different parts of a large puzzle which they then communicate and collaborate to put together.
 
 2. basic skills and full interview questions
 
-3. 'from scratch' and existing resource use
+3. solving a problem 'from scratch' without using built-in or public tools, etc. Python has many such high-level built-in functions, vs. learning to use the built-in tools. Maybe analogous to doing math with pen and paper at first before using functions built into calculators and software.  
 
 4. automatic generation of new problems for practice?
+
+
+
