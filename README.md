@@ -1,6 +1,6 @@
 dungeon_of_notebooks_coding_study_tools
 
-Note: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ is story-based coding study experiment, one which is focused on command-line terminals rather than Notebooks.
+Note: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ is story-based coding study tool. Read-Me-Adventures is focused on using command-line terminals rather than Notebooks, and focused on projects such as Natural Language Processing rather than interview question code challenges.
 
 # Dungeon of Notebooks 
 
