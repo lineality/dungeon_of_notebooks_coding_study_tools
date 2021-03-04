@@ -17,9 +17,16 @@ https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m?usp=sh
 
 General Puzzle Types:
 1. Map & Directions puzzles
+- strings
 2. item inventory puzzles
+- 
 3. battle strategy puzzles
+- data structures (linked lists)
 4. cast of creatures puzzles
+5. dungeon rooms and spell effects
+- matrices 
+6. spell books:
+- strings
 
 
 ### Notes:
@@ -31,5 +38,5 @@ General Puzzle Types:
 
 4. automatic generation of new problems for practice?
 
-
+5. Q: Files and folders? useful, but not usually included...
 
