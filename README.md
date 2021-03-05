@@ -23,6 +23,7 @@ General Puzzle Types:
 3. battle strategy puzzles
 - data structures (linked lists)
 4. cast of creatures puzzles
+	- comparing populations in rooms
 5. dungeon rooms and spell effects
 - matrices 
 6. spell books:
