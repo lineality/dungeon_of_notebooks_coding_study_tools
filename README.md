@@ -15,6 +15,10 @@ An example approach to covering a Computer Science, Programing, and Coding curri
 An 'intro / starter' notebook is here, to start story and introduce how notebooks are used:
 https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m?usp=sharing
 
+How Spells & Elements work in Dungeon of Notebooks:
+https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scrollTo=ed2AyGIRGRqp 
+
+
 General Puzzle Types:
 1. Map & Directions puzzles
 - strings
