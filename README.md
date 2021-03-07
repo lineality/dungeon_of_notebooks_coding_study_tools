@@ -22,14 +22,20 @@ https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scroll
 General Puzzle Types:
 1. Map & Directions puzzles
 - strings
+
 2. item inventory puzzles
 - 
-3. battle strategy puzzles
+
+3. team strategy puzzles
 - data structures (linked lists)
+- chain of communication
+
 4. cast of creatures puzzles
 	- comparing populations in rooms
+
 5. dungeon rooms and spell effects
 - matrices 
+
 6. spell books:
 - strings
 
