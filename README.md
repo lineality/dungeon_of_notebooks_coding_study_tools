@@ -24,7 +24,7 @@ General Puzzle Types:
 - strings
 
 2. item inventory puzzles
-- 
+
 
 3. team strategy puzzles
 - data structures (linked lists)
