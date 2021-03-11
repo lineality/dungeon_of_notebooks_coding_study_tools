@@ -4,9 +4,7 @@ Note: This project is 'Dungeon of Notebooks'. On the other hand, http://ReadMeAd
 
 # Dungeon of Notebooks 
 
-Dungeon of Notebooks is a blending of python notebooks, code-challenges (or coding-interview questions)
-
-, and story based games or RPG Dungeon games (role playing games).
+Dungeon of Notebooks is a blending of python notebooks, code-challenges (coding-interview questions), and story based games or RPG Dungeon games (role playing games).
 
 Each notebook contains a code challenge designed to teach and practice a programming skill. Each coding puzzle is framed in the context of a story scenario, so each code-puzzle is also a scene in a story. The idea is that a story will help to make the puzzle more concrete, interesting, and visibly applicable, and less arbitrary and meaningless. 
 
@@ -17,7 +15,12 @@ An example approach to covering a Computer Science, Programing, and Coding curri
 An 'intro / starter' notebook is here, to start story and introduce how notebooks are used:
 https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m?usp=sharing
 
-How Spells & Elements work in Dungeon of Notebooks:
+## Story Puzzles and Coding Challenges
+Code challenges are explained and adapted in terms of a concrete story situation. For example, instead of analyzing a random string of characters, you will deal with concrete casts of creatures or enchanted items or pathways through the dungeon. Whether you are able to 'solve the problem' will ultimately mean, concretely, being able to get artifacts from a chest in a room. If you fail, you will see how in terms of what should have happened but did not happen in terms of concrete actions, items, and relationships in a coherent story setting. 
+
+
+## How Spells & Elements work in Dungeon of Notebooks:
+Part of the story-logic-puzzles for this game is a system of 'elements' based on the eastern 5-element system, where each element helps one other element and hinders one other element. Each creature has an element, and each spell has an element. You will need to pick which element you use in each case to make sure the effect is what you plan on.
 https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scrollTo=ed2AyGIRGRqp 
 
 
