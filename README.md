@@ -61,7 +61,7 @@ To fit into an overall game, overall curricula, and overall set of teaching meth
 7.	Concrete Dungeon RPG Scenareo Puzzle
 8.	Genre (Dungeon, Science Fiction, etc.)
 9.	(Classroom Structure) Genre Setting, involving 1,2, or 3 players (OOC) and 6 Characters (in-character)
-10. 	Concrete Action, usually resulting (if puzzle is solved correctly) with getting the contents of one or more room-chests.
+10. Concrete Action, usually resulting (if puzzle is solved correctly) with getting the contents of one or more room-chests.
 11.	A working dungeon game interface with a coherent overall dungeon experience from lesson to less, interactive
 12.	Extra-Study Randomly generated or augmented Puzzles for that Specific-Skill-Lesson
 13.	(Lesson Structure) Story Game (e.g. DoN)
