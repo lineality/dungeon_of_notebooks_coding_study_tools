@@ -59,24 +59,24 @@ To fit into an overall game, overall curricula, and overall set of teaching meth
 5.	SUPER-Scrum-Liberal-Arts 2. SCrum, team
 6.	SUPER-Scrum-Liberal-Arts 3. Liberal-Arts Culture Content
 7.	Concrete Dungeon RPG Scenareo Puzzle
-8.	"Genre (Dungeon, Science Fiction, etc.)"
-9.	"(Classroom Structure) 
-Genre Settting, involving 1,2, or 3 players (OOC) and 6 Characters (in-character)"
+8.	Genre (Dungeon, Science Fiction, etc.)
+9.	(Classroom Structure) 
+Genre Settting, involving 1,2, or 3 players (OOC) and 6 Characters (in-character)
 10. 	Concrete Action, usually resulting (if puzzle is solved correctly) with getting the contents of one or more room-chests.
 11.	A working dungeon game interface with a coherent overall dungeon expereince from lesson to less, interactive
 12.	Extra-Study Randomly generated or augmented Puzzles for that Specific-Skill-Lesson
-13.	"(Lesson Structure) Story Game (e.g. DoN)
-Overall Game System"
-14.	"(Lesson Structure) Course (e.g. Tech Interview Questions)
-Overall Course of Study"
-15.	"(Lesson Structure) Course Section (e.g. Data Structures)
-Like a chapter in a textbooks"
-16.	"(Lesson Structure) General Skill Lesson Group (e.g. All About: Duplicates)
+13.	(Lesson Structure) Story Game (e.g. DoN)
+Overall Game System
+14.	Lesson Structure) Course (e.g. Tech Interview Questions)
+Overall Course of Study
+15.	(Lesson Structure) Course Section (e.g. Data Structures)
+Like a chapter in a textbooks
+16.	(Lesson Structure) General Skill Lesson Group (e.g. All About: Duplicates)
 Overall Puzzle Set, usually with Many Sub-Parts that need to be further broken down
-Not Single Metric Answer Quantified"
-17.	"(Lesson Structure) Specific  Skill Lesson (e.g. How many Duplicates are there?)
+Not Single Metric Answer Quantified
+17.	(Lesson Structure) Specific  Skill Lesson (e.g. How many Duplicates are there?)
 One specific skill for one specific question (often part of a larger problem)
-Single Metric Answer Quantified"
+Single Metric Answer Quantified
 18.	Problems have concrete situational solutions, whereby you solve the puzzle and are able to proceed with the story or not.
 
 
