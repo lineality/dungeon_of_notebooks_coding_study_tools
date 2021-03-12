@@ -56,9 +56,9 @@ To fit into an overall game, overall curricula, and overall set of teaching meth
 2.	Literary Scene
 3.	Interview Question Curriculum
 4.	SUPER-Scrum-Liberal-Arts 1. SUPER
-5.	SUPER-Scrum-Liberal-Arts 2. SCrum, team
+5.	SUPER-Scrum-Liberal-Arts 2. Scrum, team
 6.	SUPER-Scrum-Liberal-Arts 3. Liberal-Arts Culture Content
-7.	Concrete Dungeon RPG Scenareo Puzzle
+7.	Concrete Dungeon RPG Scenario Puzzle
 8.	Genre (Dungeon, Science Fiction, etc.)
 9.	(Classroom Structure) Genre Setting, involving 1,2, or 3 players (OOC) and 6 Characters (in-character)
 10. Concrete Action, usually resulting (if puzzle is solved correctly) with getting the contents of one or more room-chests.
