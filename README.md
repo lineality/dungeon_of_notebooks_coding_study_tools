@@ -52,7 +52,7 @@ General Puzzle Types:
 ## Stories, Lessons & Overall Framework
 To fit into an overall game, overall curricula, and overall set of teaching method standards, each specific focused skill-lesson will have the following: 
 	
-1	coding interview question code-challenge
+1.	coding interview question code-challenge
 2	Literary Scene
 3	Interview Question Curriculum
 4	SUPER-Scrum-Liberal-Arts 1. SUPER
