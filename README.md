@@ -12,7 +12,7 @@ The plan is to offer a set of notebooks that cover code-interview and computer s
 
 An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
 
-An 'intro / starter' notebook is here, to start story and introduce how notebooks are used:
+An introductory notebook is here, to start the story and introduce how notebooks are used:
 https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m?usp=sharing
 
 ## Story Puzzles and Coding Challenges
