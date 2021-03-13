@@ -49,6 +49,14 @@ General Puzzle Types:
 - strings
 - lists
 
++
+
+Directory & Files Basics Dungeon Rooms
+
+SQL Dungeon Rooms
+
+Probability & Statistics Dungeon Rooms
+
 ## Stories, Lessons & Overall Framework
 To fit into an overall game, overall curricula, and overall set of teaching method standards, each specific focused skill-lesson will have the following: 
 	
