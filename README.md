@@ -16,7 +16,12 @@ An introductory notebook is here, to start the story and introduce how notebooks
 https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m?usp=sharing
 
 ## Story Puzzles and Coding Challenges
-Code challenges are explained and adapted in terms of a concrete story situation. For example, instead of analyzing a random string of characters, you will deal with concrete casts of creatures or enchanted items or pathways through the dungeon. Whether you are able to 'solve the problem' will ultimately mean, concretely, being able to get artifacts from a chest in a room. If you fail, you will see how in terms of what should have happened but did not happen in terms of concrete actions, items, and relationships in a coherent story setting. 
+Code-Challenges (or 'Coding Interview Questions') alone can often seem abstract and confusing due to the lack of a concrete context where they are part of solving a clear problem. 
+Here each Code-Challenge is explained in terms of a concrete story situation with a concrete and understandable outcome. 
+
+For example,  you will deal with such things as a cast of characters, casts of creatures in dungeon rooms, enchanted items and tools, maps and pathways through the dungeon, scrolls of spells and information about creatures or dungeon rooms, etc. Whether you are able to 'solve the problem' will ultimately mean, concretely, being able to get artifacts from a chest in a room. If you fail, you can clearly see how you failed in terms of what should have happened but did not happen in terms of concrete actions, items, and relationships in a coherent story setting. 
+
+
 
 
 ## How Spells & Elements work in Dungeon of Notebooks:
