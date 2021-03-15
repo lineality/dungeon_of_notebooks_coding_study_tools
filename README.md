@@ -54,7 +54,7 @@ General Puzzle Types:
 - strings
 - lists
 
-+
++ Additional Study Areas 
 
 Directory & Files Basics Dungeon Rooms
 
