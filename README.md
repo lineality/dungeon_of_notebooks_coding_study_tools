@@ -29,7 +29,7 @@ Part of the story-logic-puzzles for this game is a system of 'elements' based on
 https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scrollTo=ed2AyGIRGRqp 
 
 
-General Puzzle Types:
+### Puzzle & Activity Examples:
 1. Map & Directions puzzles
 - strings 
 - lists
