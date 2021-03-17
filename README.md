@@ -29,18 +29,20 @@ Part of the story-logic-puzzles for this game is a system of 'elements' based on
 https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scrollTo=ed2AyGIRGRqp 
 
 
-### Puzzle & Activity Examples:
+### Puzzle & Activity Examples: 
+#### Where each puzzle will result in a successful or failed attempt to get to items from a chest in a dungeon-room. 
+
 1. Map & Directions puzzles
 - strings 
 - lists
 - graphs 
 - trees
 
-2. item inventory puzzles
+2. Item Inventory Puzzles
 - stacks
 - queues
 
-3. team strategy puzzles
+3. Team Strategy Puzzles
 - linked lists
 - chains of communication
 
