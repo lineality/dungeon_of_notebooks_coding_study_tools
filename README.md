@@ -13,10 +13,10 @@ The plan is to offer a whole set of notebooks that cover a whole curriculum of c
 ## Notebooks:
 
 An introductory notebook is here, to start the story and introduce how notebooks are used:
-https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m?usp=sharing
+https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m
 
 An example colab-notebook that pulls from code to visualize the dungeon room and scenario is here:
-(pending)
+https://colab.research.google.com/drive/1XwUtarWx2eyiabZY-vk3J9kNtqqOA06g
 
 # Curricula 
 An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
