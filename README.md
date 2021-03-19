@@ -40,8 +40,7 @@ https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scroll
 
 
 ## Graphics
-To help make events concrete, there is a (low tech) graphical display of what is happening in the dungeon room. In particular where the characters and creatures are, the characters.
-(what elements are?)
+To help make events concrete, there is a minimalist graphical display of what is happening in the dungeon room. In particular where the characters, creatures, and treasure chests are.
 
 
 ### Puzzle & Activity Examples: 
