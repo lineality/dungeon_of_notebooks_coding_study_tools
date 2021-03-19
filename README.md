@@ -10,10 +10,20 @@ Each coding-notebook contains a code-puzzle (or code challenge) designed to teac
 
 The plan is to offer a whole set of notebooks that cover a whole curriculum of code-interview and computer science curriculum skills and abilities. Challenges that elsewhere are one single more advanced challenge here may be broken up into smaller parts (before being cumulatively reviewed together). There will also be a theme of practice through cumulative repetition, with an option of additional practice puzzles in skill areas where students want more practice. The goal is not to solve one puzzle once and then never mention it again, but to train to build habits around applicable skills over time and many iterations because they are broadly applicable and repeated use deepens our skills and understanding.. 
 
-An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
+## Notebooks:
 
 An introductory notebook is here, to start the story and introduce how notebooks are used:
 https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m?usp=sharing
+
+An example colab-notebook that pulls from code to visualize the dungeon room and scenario is here:
+(pending)
+
+# Curricula 
+An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
+
+An example approach to integrating problem solving skills and team-coordination project skills into study materials which will be important for Dungeon of Notebooks is here:
+(under construction) https://github.com/lineality/cs-computer-science-curriculum 
+
 
 ## Story Puzzles and Coding Challenges
 Code-Challenges (or 'Coding Interview Questions') alone can often seem abstract and confusing due to the lack of a concrete context where they are part of solving a clear problem. 
