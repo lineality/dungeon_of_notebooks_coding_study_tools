@@ -22,7 +22,7 @@ An example colab-notebook that pulls from code to visualize the dungeon room and
 An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
 
 An example approach to integrating problem solving skills and team-coordination project skills into study materials which will be important for Dungeon of Notebooks is here:
-(under construction) https://github.com/lineality/cs-computer-science-curriculum 
+https://github.com/lineality/adding_python_libraries_to_AWS_Lambda_function 
 
 
 ## Story Puzzles and Coding Challenges
