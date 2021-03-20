@@ -46,6 +46,8 @@ To help make events concrete, there is a minimalist graphical display of what is
 ### Puzzle & Activity Examples: 
 #### Where each puzzle will result in a successful or failed attempt to get to items from a chest in a dungeon-room. 
 
+The first interview question based set of lessons (aside from tutorial and pre-requisite skill lessons) focuses on unique or duplicate items in lists and arrays. 
+
 1. Map & Directions puzzles
 - strings 
 - lists
