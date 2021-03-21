@@ -122,3 +122,6 @@ Single Metric Answer Quantified
 
 5. Q: Files and folders? useful, but not usually included...
 
+
+## Portfolios, Github Repos, and Mini-Projects
+
