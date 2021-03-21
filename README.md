@@ -125,3 +125,14 @@ Single Metric Answer Quantified
 
 ## Portfolios, Github Repos, and Mini-Projects
 
+The last step in each puzzle, after you have gotten into the treasure chests and finished the story episode, is to create a project repository (a "repo") for the coding-solution that you created.
+
+Basic steps are:
+1. clone this repo
+https://github.com/lineality/Code_Solution_For_TEMPLATE-YOUR-MINI-PROJECT-NAME-HERE
+
+2. add a title and fill in the template to describe your solution
+3. make a new repo for your solution (e.g. in Github)
+4. upload your files
+
+
