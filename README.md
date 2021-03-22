@@ -122,6 +122,15 @@ Single Metric Answer Quantified
 
 5. Q: Files and folders? useful, but not usually included...
 
+## Questions to Guide the Choice of an Educational Course
+1. What is the content?
+2. What are the methods standards?
+3. How is formative evaluation done?
+4. How is summative evaluation done?
+5. How are training and certification distinct?
+6. Is the process inclusive on all levels?
+7. How are data used in decision making?
+
 
 ## Portfolios, Github Repos, and Mini-Projects
 
