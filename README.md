@@ -32,15 +32,13 @@ Here each Code-Challenge is explained in terms of a concrete story situation wit
 For example,  you will deal with such things as a cast of characters, casts of creatures in dungeon rooms, enchanted items and tools, maps and pathways through the dungeon, scrolls of spells and information about creatures or dungeon rooms, etc. Whether you are able to 'solve the problem' will ultimately mean, concretely, being able to get artifacts from a chest in a room. If you fail, you can clearly see how you failed in terms of what should have happened but did not happen in terms of concrete actions, items, and relationships in a coherent story setting. 
 
 
-
-
 ## How Spells & Elements work in Dungeon of Notebooks:
 Part of the story-logic-puzzles for this game is a system of 'elements' based on the eastern 5-element system, where each element helps one other element and hinders one other element. Each creature has an element, and each spell has an element. You will need to pick which element you use in each case to make sure the effect is what you plan on.
 https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scrollTo=ed2AyGIRGRqp 
 
 
 ## Graphics
-To help make events concrete, there is a minimalist graphical display of what is happening in the dungeon room. In particular where the characters, creatures, and treasure chests are.
+To help make events concrete, there is a graphical display of what is happening in the dungeon room. In particular where the characters, creatures, and treasure chests are.
 
 
 ### Puzzle & Activity Examples: 
@@ -72,13 +70,14 @@ The first interview question based set of lessons (aside from tutorial and pre-r
 - strings
 - lists
 
-+ Additional Study Areas 
+### + Additional Study Areas 
 
-Directory & Files Basics Dungeon Rooms
+1. Directory & Files Basics Dungeon Rooms
 
-SQL Dungeon Rooms
+2. SQL Dungeon Rooms
 
-Probability & Statistics Dungeon Rooms
+3. Probability & Statistics Dungeon Rooms
+
 
 ## Stories, Lessons & Overall Framework
 To fit into an overall game, overall curricula, and overall set of teaching method standards, each specific focused skill-lesson will have the following: 
@@ -122,7 +121,8 @@ Single Metric Answer Quantified
 
 5. Q: Files and folders? useful, but not usually included...
 
-## Questions to Guide the Choice of an Educational Course
+
+## Questions to Guide the Choice of an Educational Course:
 1. What is the content?
 2. What are the methods standards?
 3. How is formative evaluation done?
