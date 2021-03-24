@@ -143,5 +143,6 @@ https://github.com/lineality/Code_Solution_For_TEMPLATE-YOUR-MINI-PROJECT-NAME-H
 2. add a title and fill in the template to describe your solution
 3. make a new repo for your solution (e.g. in Github)
 4. upload your files
+5. Write an article such as a blog post explaining how your solved the problem, for example teaching someone else how to do so.
 
 
