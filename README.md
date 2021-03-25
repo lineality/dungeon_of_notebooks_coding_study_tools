@@ -10,13 +10,15 @@ Each coding-notebook contains a code-puzzle (or code challenge) designed to teac
 
 The plan is to offer a whole set of notebooks that cover a whole curriculum of code-interview and computer science curriculum skills and abilities. Challenges that elsewhere are one single more advanced challenge here may be broken up into smaller parts (before being cumulatively reviewed together). There will also be a theme of practice through cumulative repetition, with an option of additional practice puzzles in skill areas where students want more practice. The goal is not to solve one puzzle once and then never mention it again, but to train to build habits around applicable skills over time and many iterations because they are broadly applicable and repeated use deepens our skills and understanding.. 
 
-## Notebooks:
+
+# Notebooks:
 
 An introductory notebook is here, to start the story and introduce how notebooks are used:
 https://colab.research.google.com/drive/1vFMCwj8yVdqUW66s8kDEK9P6YoBri21m
 
 An example colab-notebook that pulls from code to visualize the dungeon room and scenario is here:
 https://colab.research.google.com/drive/1XwUtarWx2eyiabZY-vk3J9kNtqqOA06g
+
 
 # Curricula 
 An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
@@ -25,23 +27,23 @@ An example approach to integrating problem solving skills and team-coordination 
 https://github.com/lineality/adding_python_libraries_to_AWS_Lambda_function 
 
 
-## Story Puzzles and Coding Challenges
+# Story Puzzles and Coding Challenges
 Code-Challenges (or 'Coding Interview Questions') alone can often seem abstract and confusing due to the lack of a concrete context where they are part of solving a clear problem. 
 Here each Code-Challenge is explained in terms of a concrete story situation with a concrete and understandable outcome. 
 
 For example,  you will deal with such things as a cast of characters, casts of creatures in dungeon rooms, enchanted items and tools, maps and pathways through the dungeon, scrolls of spells and information about creatures or dungeon rooms, etc. Whether you are able to 'solve the problem' will ultimately mean, concretely, being able to get artifacts from a chest in a room. If you fail, you can clearly see how you failed in terms of what should have happened but did not happen in terms of concrete actions, items, and relationships in a coherent story setting. 
 
 
-## How Spells & Elements work in Dungeon of Notebooks:
+# How Spells & Elements work in Dungeon of Notebooks:
 Part of the story-logic-puzzles for this game is a system of 'elements' based on the eastern 5-element system, where each element helps one other element and hinders one other element. Each creature has an element, and each spell has an element. You will need to pick which element you use in each case to make sure the effect is what you plan on.
 https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scrollTo=ed2AyGIRGRqp 
 
 
-## Graphics
+# Graphics
 To help make events concrete, there is a graphical display of what is happening in the dungeon room. In particular where the characters, creatures, and treasure chests are.
 
 
-### Puzzle & Activity Examples: 
+# Puzzle & Activity Examples: 
 #### Where each puzzle will result in a successful or failed attempt to get to items from a chest in a dungeon-room. 
 
 The first interview question based set of lessons (aside from tutorial and pre-requisite skill lessons) focuses on unique or duplicate items in lists and arrays. 
@@ -79,7 +81,7 @@ The first interview question based set of lessons (aside from tutorial and pre-r
 3. Probability & Statistics Dungeon Rooms
 
 
-## Stories, Lessons & Overall Framework
+# Stories, Lessons & Overall Educational Framework
 To fit into an overall game, overall curricula, and overall set of teaching method standards, each specific focused skill-lesson will have the following: 
 	
 1. coding interview question code-challenge
