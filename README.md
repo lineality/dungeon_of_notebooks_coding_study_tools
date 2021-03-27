@@ -39,6 +39,10 @@ Part of the story-logic-puzzles for this game is a system of 'elements' based on
 https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scrollTo=ed2AyGIRGRqp 
 
 
+# Gameplay Workflow
+Every "lesson" (an interview question) is a "level" in the dungeon, involving one or more rooms for which you will have to develop a function in order to get the items you need from the chests to complete that level. For example, a function that helps you to determine what spell you need to cast.
+
+
 # Interface: Graphics & Text, GUI & TUI
 To help make events concrete, there is a graphical display of what is happening in the dungeon room. In particular where the characters, creatures, and treasure chests are. For navigating freeling around the dungeon and rooms there will be a Text-User-Interface (or TUI) where the player will type in their actions. 
 
