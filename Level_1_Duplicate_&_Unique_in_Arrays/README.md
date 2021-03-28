@@ -1,11 +1,19 @@
 #### readme for level 1 unique and duplicate in arrays
 
+
+# Writing Home To Mummy
+
+The first project for the University Museum is to find enough stolen body parts from their galaxy famous mummy collection to frankenstein and re-animated a mummy who can teach history of magic lessons to help fill the staffing shortage. 
+
+You have been given an 'examine-swarm'  spell that will let you see a list of the elements of what is in the swarm.
+
+
 # The Story So Far...
-You are in the hallway of a dungeon.
+You are in a hallway in a dungeon.
 
-In front of you are ten doorways.
+In front of you is a doorway.
 
-Behind each door is not only a treasure chest (likely containing an artifact that you need) but also a elemental swarm!
+Behind the door is not only a treasure chest (likely containing an artifact that you need) but also a elemental swarm!
 
 An elemental swarm is like a swarm of flying insects, only, because it is an enchanted swarm of elementals, it is more like a swarm of fire pixies or forest pixies, or ice pixies, or a swarm of many kinds of pixies all mixed together.
 
