@@ -2,6 +2,7 @@
 
 *Note: This project is 'Dungeon of Notebooks'. A different but similar story-based coding-study tool is ReadMe-Adventures: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ . Read-Me-Adventures is focused on using command-line terminals rather than python-coding-Notebooks. Read-Me-Adventures focuses on projects such as Natural Language Processing rather than computer-science interview questions or 'code challenges.'*
 
+
 # Dungeon of Notebooks 
 
 Dungeon of Notebooks is a blending of python notebooks, code-challenges (coding-interview questions), and story based games or RPG Dungeon games (role playing games).
@@ -20,7 +21,9 @@ An example colab-notebook that pulls from code to visualize the dungeon room and
 https://colab.research.google.com/drive/1XwUtarWx2eyiabZY-vk3J9kNtqqOA06g
 
 
+
 # Curricula 
+
 An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
 
 An example approach to integrating problem solving skills and team-coordination project skills into study materials which will be important for Dungeon of Notebooks is here:
@@ -28,6 +31,7 @@ https://github.com/lineality/adding_python_libraries_to_AWS_Lambda_function
 
 
 # Story Puzzles and Coding Challenges
+
 Code-Challenges (or 'Coding Interview Questions') alone can often seem abstract and confusing due to the lack of a concrete context where they are part of solving a clear problem. 
 Here each Code-Challenge is explained in terms of a concrete story situation with a concrete and understandable outcome. 
 
@@ -35,11 +39,13 @@ For example,  you will deal with such things as a cast of characters, casts of c
 
 
 # How Spells & Elements work in Dungeon of Notebooks:
+
 Part of the story-logic-puzzles for this game is a system of 'elements' based on the eastern 5-element system, where each element helps one other element and hinders one other element. Each creature has an element, and each spell has an element. You will need to pick which element you use in each case to make sure the effect is what you plan on.
 https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scrollTo=ed2AyGIRGRqp 
 
 
 # Gameplay Workflow
+
 Every "lesson" (an interview question) is a "level" in the dungeon, involving one or more rooms for which you will have to develop a function in order to get the items you need from the chests to complete that level. For example, a function that helps you to determine what spell you need to cast.
 
 
