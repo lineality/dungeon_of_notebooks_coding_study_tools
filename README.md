@@ -1,6 +1,6 @@
 ## readme.md for dungeon_of_notebooks_coding_study_tools
 
-*Note: This project is 'Dungeon of Notebooks'. A different but similar story-based coding-study tool is ReadMe-Adventures: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ . Read-Me-Adventures is focused on using command-line terminals rather than python-coding-Notebooks. Read-Me-Adventures focuses on projects such as Natural Language Processing rather than computer-science interview questions or 'code challenges.'*
+*Note: The study tool described here is 'Dungeon of Notebooks'. A different but similar story-based coding-study tool is ReadMe-Adventures: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ . Read-Me-Adventures is focused on using command-line terminals projects such as Natural Language Processing rather than computer-science interview questions or 'code challenges' primarily using Python-Notebooks.
 
 
 # Dungeon of Notebooks 
