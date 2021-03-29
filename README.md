@@ -48,6 +48,10 @@ https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scroll
 
 Every "lesson" (an interview question) is a "level" in the dungeon, involving one or more rooms for which you will have to develop a function in order to get the items you need from the chests to complete that level. For example, a function that helps you to determine what spell you need to cast.
 
+The text and coding cells of the notebook will guide you through the story, and let you interact through text and graphical displays of the rooms and dungeon level.
+
+
+
 
 # Interface: Graphics & Text, GUI & TUI
 To help make events concrete, there is a graphical display of what is happening in the dungeon room. In particular where the characters, creatures, and treasure chests are. For navigating freeling around the dungeon and rooms there will be a Text-User-Interface (or TUI) where the player will type in their actions. 
