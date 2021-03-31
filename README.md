@@ -140,7 +140,7 @@ Single Metric Answer Quantified
 5. Q: Files and folders? useful, but not usually included...
 
 
-## Questions to Guide the Choice of an Educational Course:
+## Questions to Guide the Choice of an Educational Course (e.g. for students, supervisors, parents, and teachers etc.):
 1. What is the content?
 2. What are the methods standards?
 3. How is formative evaluation done?
