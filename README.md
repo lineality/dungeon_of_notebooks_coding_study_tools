@@ -54,7 +54,7 @@ The text and coding cells of the notebook will guide you through the story, and 
 
 
 # Interface: Graphics & Text, GUI & TUI
-To help make events and outcomes concrete, there is a graphical display of what is happening in the dungeon room. In particular where the characters, creatures, and treasure chests are in rooms, and where you are and where rooms are in the dungeon level. For navigating freeling around the dungeon and rooms there will be a Text-User-Interface (or TUI) where the player will type in their actions. 
+To help make events and outcomes concrete, there is a graphical display of what is happening in the dungeon room. In particular where the characters, creatures, and treasure chests are in rooms, and where you are and where rooms are in the dungeon level. For navigating freely around the dungeon level and in dungeon rooms, and deciding what to look at, there will be a Text-User-Interface (or TUI) where the player will type in their actions. 
 
 
 
