@@ -7,7 +7,7 @@
 
 # Basic Design: Objects and Resonance
 
-Every 'object' in the Dungeon of Notebooks (DoN) world is a similar kind of object. This, oddly, applies to both the story-level colloquial term 'object' (or whatever synonym) referring to inventory items such as hammers, bags, shields, shirts, and socks. And living creatures in rooms are also objects in rooms. And player-characters are also objects in rooms. And rooms are also objects in the larger dungeon. All of these 'objects' (in non-technical language) are also "objects" in the technical language of object oriented programming: all objects are instances of the class "DoN_Object." 
+Every 'object' in the world of Dungeon of Notebooks (DoN) a similar kind of object. This elusively simple statement, oddly, applies to both the story-level colloquial term 'object' (or whatever synonym) referring to inventory items such as hammers, bags, shields, shirts, and socks, and to living creatures in rooms which are also objects in rooms, and to player-characters who are also objects in rooms., and this applies to rooms which are objects in the larger dungeon. All of these 'objects' (in non-technical language) are also "objects" in the technical language of object oriented programming: all objects are instances of the class "DoN_Object." 
 
 
 
