@@ -25,7 +25,10 @@ The basic aim is that the use of the tools and the designs of the python functio
 For example someone might say, "well, a so-called-character is not really a character, it is just a computer object, and the character is not really moving it is just changing numbers in the program, so, therefore, there's no point in having a function to just pretend to move a merely pretend so-called-character." The view taken here is that that statement in quotes reflects an extreme perspective which would make both this project and coding best practice more difficult. 
 
 
-Two examples: For example, 'refactoring' while often used to mean 'optimizing' or 'debugging' originally meant and still often means: making the code easier to understand, read, and use. 
+Two examples: 
+1. In theory, for some people it may be more 'pure' to just change the numbers that reflect a character moving rather than create a method (a function) which is easy to understand in plain language. The priority here is communication and understanding.
+
+2. The concept of 'refactoring your code' is often (mis)used to mean 'optimizing' or 'debugging,' but originally 'refactoring' meant (and still often means) making the code easier to understand, read, and use. 
 
 
 
