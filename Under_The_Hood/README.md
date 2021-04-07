@@ -18,18 +18,19 @@ etc.
 
 
 
-
-
 # Stories & Abstractions: On the Level of the Story
 
-The basic aim is that the use of the tools and the designs of the python functions (mostly class methods) should operate on the level story. If a character is moving from one place to another, or if a character is casting a  spell or enchantment, the use of the function (or method) should operate on that level.
+The basic aim is that the use of the tools and the designs of the python functions (mostly "class methods") should operate on the level story. That was probably a dense sentence so I will take some time to unpack it because it may be important for understanding how the code works. What I mean by "on the level of the story," is that if a character is moving from one place to another, or if a character is casting a  spell or enchantment, the use of the function (or method) should operate on that "level" of terms an objects and actions. 
 
-For example you might say, "well, it's not really a character, and they aren't really moving, so there's no point in having a function to pretend to move a pretend character." My view, just one vote, is that this statement in quotes reflects an extremism perspective which undermines not only a given project but best-practice in coding itself. For example, 'refactoring' while often used to mean 'optimizing' or 'debugging' originally meant and still often means: making the code easier to understand, read, and use. 
-
-
+For example someone might say, "well, a so-called-character is not really a character, it is just a computer object, and the character is not really moving it is just changing numbers in the program, so, therefore, there's no point in having a function to just pretend to move a merely pretend so-called-character." The view taken here is that that statement in quotes reflects an extreme perspective which would make both this project and coding best practice more difficult. 
 
 
-# Curious Worlds: Instrumentalist Implications of Resonance
+Two examples: For example, 'refactoring' while often used to mean 'optimizing' or 'debugging' originally meant and still often means: making the code easier to understand, read, and use. 
+
+
+
+
+# Curious Worlds: Instrumentalist Implications of Resonance-Objects
 
 An interesting side effect of this elemental-enchantment-object structure is that the world is kind of fractal-world. 
 
