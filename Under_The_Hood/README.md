@@ -17,7 +17,6 @@ Another way of looking at this from a story angle is that everything in this mag
 etc.
 
 
-
 # Stories & Abstractions: On the Level of the Story
 
 The basic aim is that the use of the tools and the designs of the python functions (mostly "class methods") should operate on the level story. That was probably a dense sentence so I will take some time to unpack it because it may be important for understanding how the code works. What I mean by "on the level of the story," is that if a character is moving from one place to another, or if a character is casting a  spell or enchantment, the use of the function (or method) should operate on that "level" of terms an objects and actions. 
@@ -31,20 +30,18 @@ Two examples:
 2. The concept of 'refactoring your code' is often (mis)used to mean 'optimizing' or 'debugging,' but originally 'refactoring' meant (and still often means) making the code easier to understand, read, and use. 
 
 
-
-
 # Curious Worlds: Instrumentalist Implications of Resonance-Objects
 
 An interesting side effect of this elemental-enchantment-object structure is that the world is kind of fractal-world. 
 
 For example, let's start out with a basic common-sense character-perspective of 'levels' or 'scales' of a given world. 
 
-The largest scale we currently have here is a village, a town.
-The village contains a dungeon. 
-The dungeon contains levels.
-The dungeon-levels contain rooms.
-The rooms contain chests.
-The chests have items in them.
-The items have enchantments. 
+- The largest scale we currently have here is a village, a town.
+- The village contains a dungeon. 
+- The dungeon contains levels.
+- The dungeon-levels contain rooms.
+- The rooms contain chests.
+- The chests have items in them.
+- The items have enchantments. 
 
 This gets interesting when we see that every object in the game-world is an elemental-enchantment-object with all the same basic properties of every other object, meaning that scale is relative not absolute. Every enchantment-object can play a role on any of these scales. For example, if you go into a room and find a cucumber on a table, you can go into that cucumber. That cucumber can contain: a village, a dungeon, levels, rooms, tables, and more cucumbers. 
