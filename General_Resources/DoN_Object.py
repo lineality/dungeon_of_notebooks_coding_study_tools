@@ -7,7 +7,8 @@
 class DoN_Object:
 
     # constructor
-    def __init__(self, 
+    def __init__(self,
+                 blurb = '', 
                  health_status = 1,
                  avatar = 'x',
                  name = "No_Name", 
@@ -37,6 +38,9 @@ class DoN_Object:
                  room_X = None, 
                  room_y = None,
 
+                 # For Characters
+                 character_dictionary = {},
+                 party_location = 0
                  ):
 
 
@@ -45,6 +49,7 @@ class DoN_Object:
         # instance attributes
         ######################
 
+        self.blurb = blurb
         self.avatar = avatar  # single character str
         self.health_status = health_status  # 1 = healthy, 0 = ailing, -1 = unconcious
         self.name = name  # plain language name
@@ -129,6 +134,9 @@ class DoN_Object:
         self.dungeon_level_width = 0
         self.dungeon_level_height = 0
 
+        # Characters
+        self.character_dictionary = character_dictionary
+        self.party_location = party_location
 
     ###############
     # Dictionaries
@@ -167,22 +175,8 @@ class DoN_Object:
 
     # Nicer Print
     def __repr__(self):
-    #     return f"""
-    #     {self.avatar},
-    #     {self.health_status},  # 1 = healthy, 0 = ailing, -1 = unconcious
-    #     {self.name},  # plain language name
-    #     {self.element},  # (1,2,3,4,5)
-    #     # self.element = element
-    #     {self.health_points},  # (int) stating health
-    #     {self.hit_points},  # (int) starting Hitpoints
-    #     {self.root_hit_points},  # (int)
-    #     # Contains and Contains-by (other objects)
-    #     # self.micro_location_in_room_or_riding_on = micro_location_in_room_or_riding_on  # object.location / (1,2)
-    #     # self.macro_location_which_room_or_riding_on = macro_location_which_room_or_riding_on  # object.location (1,2,0,0,0) (room x, room y, level-floor, which-building, etc.)
-    #     {self.micro_location},
-    #     {self.macro_location},
-    #     """
-
+    #     return f"{self.blurb}"
+    # Fix this later - still just room-print
     # def room_print(self):
         if self.e_to_room is not None:
             return f"({self.room_X}, {self.room_y}) -> ({self.e_to_room.room_X}, {self.e_to_room.room_y})"
@@ -233,7 +227,7 @@ class DoN_Object:
     #################
 
     # TODO: modify or diversify this to make more types of patterns
-    def dungeon_level_procedural_generation_algorithm(self, d_level_size_x, d_level_size_y, d_level_num_rooms):
+    def dungeon_level_procedural_generation_algorithm(self, d_level_size_x, d_level_size_y, dungeon_level_number_of_rooms):
         '''
         Super Simple dungeon_level_procedural_generation_algorithm:
         A basic snake pattern within a preset-sized dungeon_level_grid.
@@ -256,7 +250,7 @@ class DoN_Object:
 
         # While there are rooms to be created...
         previous_room = None
-        while room_number_counter < d_level_num_rooms:
+        while room_number_counter < dungeon_level_number_of_rooms:
 
             # Calculate the direction of the room to be created
             if direction > 0 and X_for_room < d_level_size_x - 1:
@@ -751,7 +745,7 @@ class DoN_Object:
     # add one population to swarm
     def populate_swarm(self, swarm_located_here, population_size, health, hp, which_element):
         # # inspection
-        print("populating...\npopulation size = ", population_size, "element = ", which_element)
+        # print("populating...\npopulation size = ", population_size, "element = ", which_element)
 
         for i in range(0, population_size):
             this_object = DoN_Object(inventory=[], health_points=health, hit_points=hp, element=which_element)
@@ -762,10 +756,9 @@ class DoN_Object:
             # self.set_as_object_location(swarm_located_here, this_object)
             swarm_located_here.inventory.append(this_object)
 
-
     # make a randomly populated swarm
     # large chance of just one elemnet?
-    def make_random_swarm(self, swarm_located_here = None, max_number_of_elements = 6):
+    def make_a_random_swarm(self, swarm_located_here = None, max_number_of_elements = 6):
         import random
 
         if not swarm_located_here:
@@ -813,12 +806,45 @@ class DoN_Object:
 
 
             # # inspection
-            print("\nnumber_of_elements_in_swarm", number_of_elements_in_swarm)
+            # print("\nnumber_of_elements_in_swarm", number_of_elements_in_swarm)
             # print("which_element", which_element)
             # print("population_size", population_size)            
             # print("health", health)            
             # print("hp", hp)            
+
+
+    def make_a_swarm_in_each_dungeon_level_room(self):
+        for i in range(0, len(self.room_dictionary)):
+            # call room link function(medthod)
+            self.room_dictionary[i].make_a_random_swarm()
+
+
+    #############
+    # Characters
+    #############
+
+    def make_main_characters(self, choice_of_element=1):
+
+        character_list = {'A':1,'B':2,'C':3,'D':4,'E':4,'F':choice_of_element}
         
+        # iterate through characters list and make characters
+        for key, value in character_list.items():
+            # inspection
+            print(key, value)
+
+            # creaate object
+            this_character = DoN_Object( avatar=key, element=value, inventory=[], blurb="Character" )
+            
+            # put object in character_dictionary
+            self.character_dictionary[key] = this_character
+
+
+    ################
+    # Action & REPL
+    ################
+
+
+
 
     ##########################
     # End of Class DoN_Object
