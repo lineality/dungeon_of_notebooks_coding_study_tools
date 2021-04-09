@@ -5,7 +5,7 @@
 
 # Dungeon of Notebooks 
 
-Dungeon of Notebooks is a blending of python notebooks, code-challenges (coding-interview questions), and story based games or RPG Dungeon games (role playing games).
+Dungeon of Notebooks is a blend of python notebooks, code-challenges (coding-interview job-interview questions), and story based games or RPG Dungeon games (role playing games).
 
 Each coding-notebook contains a code-puzzle (or code challenge) designed to teach and practice a specific programming skill. Each code-puzzle is framed in the context of a story scenario, so each code-puzzle is also a scene in a story. The idea is that a story will help to make the puzzle more concrete, interesting, and applicable in real-life scenarios, and connected to the world we live in (or read about in literature). This should address the problem of code challenges being difficult to understand or solve when they are excessively arbitrary and disconnected. 
 
