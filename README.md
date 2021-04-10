@@ -59,7 +59,7 @@ To help make events and outcomes concrete, there is a graphical display of what 
 
 
 # Puzzle & Activity Examples: 
-#### Where each puzzle will result in a successful or failed attempt to get to items from a chest in a dungeon-room. 
+#### Each puzzle will result in a successful or failed attempt to get to items from a chest in a dungeon-room. 
 
 The first interview question based set of lessons (aside from tutorial and pre-requisite skill lessons) focuses on unique or duplicate items in lists and arrays. 
 
