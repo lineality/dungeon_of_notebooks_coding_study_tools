@@ -151,7 +151,7 @@ Single Metric Answer Quantified
 
 ## Portfolios, Github Repos, and Mini-Projects
 
-The last step for each puzzle-level, after you have solved the technical challenge, gotten into the treasure chests, gotten your items, and finished the story episode, is to create a project repository (a "repo") for the coding-solution that you created.
+The last step for each puzzle-level (after you have solved the technical challenge, gotten into the treasure chests, gotten your items, and finished the story episode) is to create a project repository (a "repo") for the coding-solution that you created in a git system such as github.
 
 Basic steps are:
 1. clone this repo
