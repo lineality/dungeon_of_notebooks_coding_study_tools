@@ -50,6 +50,10 @@ Every "lesson" (an interview question) is a "level" in the dungeon, involving on
 
 The text and coding cells of the notebook will guide you through the story, and let you interact through text and graphical displays of the rooms and dungeon level.
 
+The lesson will begin with where you are in the story, for example getting an assignment in the villages's university museum and then going down into the dungeon to have your adventure looking for what the museum needs. 
+
+You will navigate the dungeon 
+
 
 
 
