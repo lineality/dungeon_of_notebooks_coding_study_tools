@@ -52,7 +52,9 @@ The text and coding cells of the notebook will guide you through the story, and 
 
 The lesson will begin with where you are in the story, for example getting an assignment in the villages's university museum and then going down into the dungeon to have your adventure looking for what the museum needs. 
 
-You will navigate the dungeon 
+You will navigate the dungeon on your own (with a cast of 6 story-characters and ideally with one or two other human-players to work together as a team) to complete the task.
+
+When you complete the task getting the items you need, the interface will alert you. 
 
 
 
