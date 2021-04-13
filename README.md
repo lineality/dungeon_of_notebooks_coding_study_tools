@@ -23,6 +23,12 @@ https://colab.research.google.com/drive/1XwUtarWx2eyiabZY-vk3J9kNtqqOA06g
 
 
 # Curricula 
+While descriptions of a given course often focus on the one curriculum (singular) for the course, in many cases the reality is managing multiple parallel curricula (plural). In this case here are some example curricula:
+1. standard interview questions for tech coding job interviews
+2. code presentation, communication, repo management, blogging, and code 'refactoring'
+3. General practical programing background skills from SQL and command line terminals to introductory computer science concepts (such as data types) 
+4. Liberal Arts Culture and Literature
+5. Scrum and Agile Best Practice Methods, Frameworks, Standards, and Procedures
 
 An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
 
