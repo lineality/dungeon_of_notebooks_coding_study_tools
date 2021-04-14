@@ -32,9 +32,9 @@ While descriptions of a given course often focus on the one curriculum (singular
 
 An example approach to covering a Computer Science, Programing, and Coding curriculum can be found here: https://github.com/lineality/cs-computer-science-curriculum 
 
-An example approach to integrating problem solving skills and team-coordination project skills into study materials which will be important for Dungeon of Notebooks is here:
+An example of an approach to integrating problem-solving-skills and team-coordination-project-skills together into lessons and study-materials is here:
 https://github.com/lineality/adding_python_libraries_to_AWS_Lambda_function 
-
+This combination of curricula is a high priority goal for Dungeon of Notebooks.
 
 # Story Puzzles and Coding Challenges
 
