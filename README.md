@@ -7,6 +7,8 @@
 
 Dungeon of Notebooks is a blend of python notebooks, code-challenges (coding-interview job-interview questions), and story based games or RPG Dungeon games (role playing games).
 
+A "coding notebook" is a python notebook, either an online Google Colab notebook or a jupyter notebook (which could also run in an online service such as AWS or many others). 
+
 Each coding-notebook contains a code-puzzle (or code challenge) designed to teach and practice a specific programming skill. Each code-puzzle is framed in the context of a story scenario, so each code-puzzle is also a scene in a story. The idea is that a story will help to make the puzzle more concrete, interesting, and applicable in real-life scenarios, and connected to the world we live in (or read about in literature). This should address the problem of code challenges being difficult to understand or solve when they are excessively arbitrary and disconnected. 
 
 The plan is to offer a whole set of notebooks that cover a whole curriculum of code-interview and computer science curriculum skills and abilities. Challenges that elsewhere are one single more advanced challenge here may be broken up into smaller parts (before being cumulatively reviewed together). There will also be a theme of practice through cumulative repetition, with an option of additional practice puzzles in skill areas where students want more practice. The goal is not to solve one puzzle once and then never mention it again, but to train to build habits around applicable skills over time and many iterations because they are broadly applicable and repeated use deepens our skills and understanding.. 
