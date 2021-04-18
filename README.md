@@ -56,7 +56,10 @@ https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scroll
 
 # Gameplay Workflow
 
-Every "lesson" (an interview question) is a "level" in the dungeon, involving one or more rooms for which you will have to develop a function in order to get the items you need from the chests to complete that level. For example, a function that helps you to determine what spell you need to cast.
+Every "lesson" (an interview question) is a "level" in the dungeon, involving one or more rooms.
+In each level there will be special items that you will need to get from chests in the dungeon rooms. To get to the chests there will be some practical problem that you will have to overcome.
+To solve this practical problem you will have to develop a "function" to solve that problem.
+When you solve the problem then you can get the items you need from the chests to complete that level. For example, a function that helps you to determine what kind of spell you need to cast.
 
 The text and coding cells of the notebook will guide you through the story, and let you interact through text and graphical displays of the rooms and dungeon level.
 
