@@ -25,7 +25,7 @@ https://colab.research.google.com/drive/1XwUtarWx2eyiabZY-vk3J9kNtqqOA06g
 
 
 # Curricula 
-While descriptions of a given course often focus on the one curriculum (singular) for the course, in many cases the reality is managing multiple parallel curricula (plural). In this case (for Dungeon of Notebooks lessons) here are some example curricula to be managed all together (or in parallel):
+Descriptions of a given course can focus on one curriculum (singular) for the course, but in many cases the reality of teaching and learning in a course of study is managing multiple parallel curricula (plural). In this case (for Dungeon of Notebooks lessons) here are some example curricula to be managed all together (or in parallel):
 1. standard technical interview questions for coding job interviews (computer programming)
 2. code presentation, communication, repo management, blogging, and code 'refactoring'
 3. General practical programing background skills from SQL and command line terminals to introductory computer science concepts (such as data types) 
