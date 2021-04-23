@@ -50,7 +50,7 @@ For example,  you will deal with such things as a cast of characters, casts of c
 
 One of the first exciting questions when you go into any new RPG or fiction world involving spells, is "How do spells work in this world?"  
 
-Spells in Dungeon-of-Notebooks use a system of 'elements' based on the eastern 5-element system, where each element helps one other element and hinders one other element. Each creature has an element, and each spell has an element. You will need to pick which element you use in each case to make sure the effect is what you plan on.
+The system-mechanic for spells & enchantments in Dungeon-of-Notebooks uses a system of 'elemental-relationships' based on the eastern 5-element system, where each element helps one other element and hinders one other element. Each creature has an element, and each spell has an element. You will need to pick which element you use in each case to make sure the effect is what you plan on.
 https://colab.research.google.com/drive/1h3niNU_0cCAJRqVfDRhDC5NXRIKIQ0zr#scrollTo=ed2AyGIRGRqp 
 
 
