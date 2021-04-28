@@ -112,6 +112,11 @@ Other examples include:
 - strings
 - lists
 
+
+
+
+
+
 ### + Additional Study Areas 
 
 1. Directory & Files Basics Dungeon Rooms
@@ -153,7 +158,7 @@ Single Metric Answer Quantified
 
 
 ### Notes:
-1. "cut-up" style puzzles where, for a group activity, different users/students are given different parts of a large puzzle which they then communicate and collaborate to put together.
+1. "cut-up" style puzzles: A good education activity tool designed for active-enguaged-learning on the part of the student is what is often called a 'cut-up' activity for small groups of students, where different students are given different parts of a larger puzzle which they then communicate and collaborate to put together.
 
 2. basic skills and full interview questions
 
