@@ -1,6 +1,6 @@
 ## readme.md for dungeon_of_notebooks_coding_study_tools
 
-*Note: The study tool described here is 'Dungeon of Notebooks'. A different but similar story-based coding-study tool is ReadMe-Adventures: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ . Read-Me-Adventures is focused on using a command-line terminal and projects such as Natural Language Processing rather than computer-science interview questions or 'code challenges' primarily using Python-Notebooks.
+*Note: The study tool described here is 'Dungeon of Notebooks'. A different but similar story-based coding-study tool is ReadMe-Adventures (LInked: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ ). Read-Me-Adventures is focused on using a command-line terminal and teaches topics such as Natural Language Processing.
 
 
 # Dungeon of Notebooks 
@@ -8,6 +8,8 @@
 Dungeon of Notebooks is a blend of python notebooks, code-challenges (coding-interview job-interview questions), and story based games or RPG Dungeon games (role playing games).
 
 A "coding notebook" is a python notebook, either an online Google Colab notebook or a jupyter notebook (which could also run in an online service such as AWS or many others). 
+
+*Note: The study tool described here is 'Dungeon of Notebooks'. A different but similar story-based coding-study tool is ReadMe-Adventures (LInked: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ ). Read-Me-Adventures is focused on using a command-line terminal and teaches topics such as Natural Language Processing.
 
 Each coding-notebook contains a code-puzzle (or code challenge) designed to teach and practice a specific programming skill. Each code-puzzle is framed in the context of a story scenario, so each code-puzzle is also a scene in a story. The idea is that a story will help to make the puzzle more concrete, interesting, and applicable in real-life scenarios, and connected to the world we live in (or read about in literature). This should address the problem of code challenges being difficult to understand or solve when they are excessively arbitrary and disconnected. 
 
