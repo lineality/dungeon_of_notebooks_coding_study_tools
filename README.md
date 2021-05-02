@@ -168,7 +168,7 @@ Single Metric Answer Quantified
 
 4. automatic generation of new problems for practice?
 
-5. Q: Files and folders? useful, but not usually included...
+5. Question: Files and folders? useful, but not usually included...
 
 
 ## Questions to Guide the Choice of an Educational Course (e.g. for students, supervisors, parents, and teachers etc.):
