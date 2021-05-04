@@ -1,9 +1,11 @@
 ## readme.md for dungeon_of_notebooks_coding_study_tools
 
-*Note: The study tool described here is 'Dungeon of Notebooks'. A different but similar story-based coding-study tool is ReadMe-Adventures (LInked: http://ReadMeAdventures.com/ or https://lineality.github.io/readmeadventures.github.io/ ). Read-Me-Adventures is focused on using a command-line terminal and teaches topics such as Natural Language Processing.
-
-
 # Dungeon of Notebooks 
+
+## Premises: 
+1. Anyone, old or young, can learn computer programming skills. 
+2. Communication about situations and clear context is a core part of both computer programming and projects that apply computer programming. 
+3. Concrete stories provide needed context and clarity. 
 
 Dungeon of Notebooks is a blend of python notebooks, code-challenges (coding-interview job-interview questions), and story based games or RPG Dungeon games (role playing games).
 
@@ -168,7 +170,7 @@ Single Metric Answer Quantified
 
 4. automatic generation of new problems for practice?
 
-5. Question: Files and folders? useful, but not usually included...
+5. Q: Files and folders? useful, but not usually included...
 
 
 ## Questions to Guide the Choice of an Educational Course (e.g. for students, supervisors, parents, and teachers etc.):
