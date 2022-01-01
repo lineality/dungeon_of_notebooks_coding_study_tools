@@ -1,12 +1,14 @@
-# version 2021.03.28
+# version 2022.01.01
 
-#######################################################
-# Character, Dungeon Level, Room, Item, or Swarm, Etc. 
-#######################################################
+#####################################################################
+# General DoN Obj: Character, Dungeon Level, Room, Item, Swarm, Etc. 
+#####################################################################
 
 class DoN_Object:
 
-    # constructor
+    ##############
+    # Constructor
+    ##############
     def __init__(self,
                  blurb = '', 
                  health_status = 1,
@@ -39,14 +41,13 @@ class DoN_Object:
                  room_y = None,
 
                  # For Characters
-                 character_dictionary = {},
+                 character_and_item_dictionary = {},
                  party_location = 0
                  ):
 
 
-
         ######################
-        # instance attributes
+        # Instance Attributes
         ######################
 
         self.blurb = blurb
@@ -60,8 +61,11 @@ class DoN_Object:
         self.root_hit_points = hit_points  # (int)
 
         # Contains and Contains-by (other objects)
-        # self.micro_location_in_room_or_riding_on = micro_location_in_room_or_riding_on  # object.location / (1,2)
-        # self.macro_location_which_room_or_riding_on = macro_location_which_room_or_riding_on  # object.location (1,2,0,0,0) (room x, room y, level-floor, which-building, etc.)
+        """
+        Explaining micro_location and macro_location:
+        micro_location_in_room_or_riding_on = micro_location_in_room_or_riding_on  # object.location / (1,2)
+        macro_location_which_room_or_riding_on = macro_location_which_room_or_riding_on  # object.location (1,2,0,0,0) (room x, room y, level-floor, which-building, etc.)
+        """
         self.micro_location = micro_location
         self.macro_location = macro_location
         self.inventory = inventory  # list
@@ -135,7 +139,7 @@ class DoN_Object:
         self.dungeon_level_height = 0
 
         # Characters
-        self.character_dictionary = character_dictionary
+        self.character_and_item_dictionary = character_and_item_dictionary
         self.party_location = party_location
 
     ###############
@@ -169,9 +173,13 @@ class DoN_Object:
     }
 
 
-    #########
-    # Methods
-    #########
+    ######################
+    # Methods (Functions)
+    ######################
+
+    """
+    diversify how the object is printed
+    """
 
     # Nicer Print
     def __repr__(self):
@@ -202,9 +210,10 @@ class DoN_Object:
             #     return f"({self.room_X}, {self.room_y}) -> ({self.e_to_room.room_X}, {self.e_to_room.room_y})"
             # return f"({self.room_X}, {self.room_y})"
 
-    ########
+
+    ##########################
     # For Dungeon Level Rooms
-    ########
+    ##########################
 
     def connect_rooms(self, connecting_room, direction):
         '''
@@ -269,6 +278,9 @@ class DoN_Object:
             room = DoN_Object(inventory=[], room_id=room_number_counter, room_name="A Generic Room", room_description="This is a generic room.", room_X=X_for_room, room_y=y_for_room)
             # Note that in Django, you'll need to save the room after you create it
 
+            # add room features to room-objects
+            room.make_a_dungeon_room()
+
             # TODO fix this
             # # add to inventory list
             # self.inventory.append[room]
@@ -290,8 +302,9 @@ class DoN_Object:
             previous_room = room
             room_number_counter += 1
 
-
-        # Housekeeping:
+        ###############
+        # Housekeeping
+        ###############
 
         # Make Room-Zero the Staircase
         self.dungeon_level_grid[0][0].room_id = "_-S"
@@ -299,10 +312,12 @@ class DoN_Object:
 
     def dungeon_level_print_rooms(self):
         '''
-        Print the rooms in room_dungeon_level_grid in ascii characters.
+        Print the rooms in room_dungeon_level_grid, 
+        in ascii characters,
+        to a termianl (or notebook)
 
-        The console prints top to bottom but array is arranged
-        bottom to top.
+        The console prints top to bottom 
+        but array is arranged bottom to top.
         
         So reverse the array so the print is drawn in the right direction.
         '''
@@ -315,7 +330,11 @@ class DoN_Object:
         # reverse the copy
         reverse_dungeon_level_grid.reverse()
 
-        # Print!
+
+        #####################
+        # Print The Dungeon!
+        #####################
+
         # Iterate through table of rooms and print
         for row in reverse_dungeon_level_grid:
 
@@ -382,14 +401,14 @@ class DoN_Object:
 
     # set place in room (or ride)
     def set_micro_location(self, set_micro_location):
-        self.set_micro_location = set_micro_location
+        self.micro_location = set_micro_location
 
     # set room (or ride)
     def set_macro_location(self, set_macro_location):
-        self.set_macro_location = set_macro_location
+        self.macro_location = set_macro_location
 
     # def set_inventory(self, inventory):
-    #     self.inventory = inventory
+    #    self.inventory = inventory
 
 
     # TODO
@@ -439,6 +458,13 @@ class DoN_Object:
         print( "len of      = ", len(self.inventory ) )
         print( "elements of = ", self.print_inventory_element() )
 
+    def print_inventory_blurbs(self):
+        for item in self.inventory:
+            print(item.blurb)
+
+    def print_inventory_names(self):
+        for item in self.inventory:
+            print(item.name)
 
     def print_inventory_elements(self):
 
@@ -455,26 +481,28 @@ class DoN_Object:
     def activate_item(self, item):
         self.active_items_list.append(item)
 
-    def deactivate_item(self):
+    def deactivate_item(self, item):
         self.active_items_list.remove(item)
 
     def get_element(self):
         return self.element_dict[self.element]
 
-    ##########
-    # Effects
-    ##########
+    ##############################
+    # Effects & (magic)"Elements"
+    ##############################
 
-    # The basic modality(?) is that if the other element is + effects_you
-    # your health and hitpoints get boosted
-    # 
-    # if the other element is - effects_you
-    # 
-    # 1. water
-    # 2. forest
-    # 3. fire
-    # 4. void
-    # 5. ice
+    """
+    The basic modality(?) is that if the other element is + effects_you
+    your health and hitpoints get boosted
+    
+    if the other element is - effects_you
+    
+    1. water
+    2. forest
+    3. fire
+    4. void
+    5. ice
+    """
 
     def calculate_effect(self, other_element, give_or_get):
         if give_or_get == "get":
@@ -530,7 +558,7 @@ class DoN_Object:
         # (but not the swarm enchantment / vessel itself)
         if effecting_object_id.flags["swarm"] is True:
             for this_object_id in effecting_object_id.inventory:
-                get_one_effect(self, this_object_id)
+                self.get_one_effect(self, this_object_id)
 
             # auto react  
             if (self.health_status >= 0) and (self.flags["auto_react"] is True):
@@ -578,12 +606,14 @@ class DoN_Object:
             target_object_id.get_effect(self)
 
 
-    ############
-    # For Rooms
-    ############  
+    ####################
+    # Methods For Rooms
+    ####################  
+    """
+    Using method above
+    to create a 2D array 
+    """
 
-    # Using above second method to create a  
-    # 2D array 
     def make_a_dungeon_room(self):  # (door_location = (-2, 2), size_of_room = (12, 12), floor_tile = " "):
 
         # tuple unpacking
@@ -637,7 +667,7 @@ class DoN_Object:
 
         # make sure objects in room are added:
         for this_character in self.inventory:
-            self.add_character(this_character)
+            self.add_character_to_map(this_character)
 
         # iterate through rows and columns
         for row in range(len(self.dungeon_room)):
@@ -653,12 +683,12 @@ class DoN_Object:
         
 
     # dungeon_room[row][col] = noun
-    def add_something(self, to_here, add_this):  # (dungeon_room, to_here, add_this):
+    def add_something_to_map(self, to_here, add_this):  # (dungeon_room, to_here, add_this):
         self.dungeon_room[to_here[0]][to_here[1]] = add_this
 
 
-    def add_character(self, character_id):
-        self.add_something( character_id.micro_location, character_id.avatar  )
+    def add_character_to_map(self, character_id):
+        self.add_something_to_map( character_id.micro_location, character_id.avatar  )
 
 
     # dungeon_room[row][col] = noun
@@ -669,16 +699,16 @@ class DoN_Object:
 
     # dungeon_room[row][col] = noun
     def main_characters(self):  # (dungeon_room, to_here, add_this):
-        self.add_something((11,3),"A")
-        self.add_something((11,4),"B")
-        self.add_something((11,5),"C")
-        self.add_something((11,6),"D")
-        self.add_something((11,7),"E")
-        self.add_something((11,8),"F")
+        self.add_something_to_map((11,3),"A")
+        self.add_something_to_map((11,4),"B")
+        self.add_something_to_map((11,5),"C")
+        self.add_something_to_map((11,6),"D")
+        self.add_something_to_map((11,7),"E")
+        self.add_something_to_map((11,8),"F")
 
 
     # Modify Room Contents
-    def move_something(self):  # dungeon_room, from_here, to_here, padding = " "):
+    def move_something(self, from_here, to_here):  # dungeon_room, from_here, to_here, padding = " "):
         
         # From: 
         # original floor-tile becomes blank
@@ -729,7 +759,7 @@ class DoN_Object:
                                 macro_location = add_to_this_room,  # macro_location_which_dungeon_room_or_riding_on
                                )
         # add to inventory of room
-        add_to_inventory.enchantment_list(Raw_Swarm)
+        self.add_to_inventory.enchantment_list(Raw_Swarm)
         # ??? add to enchantments of room
         add_to_this_room.enchantment_list(Raw_Swarm)
     
@@ -825,18 +855,49 @@ class DoN_Object:
 
     def make_main_characters(self, choice_of_element=1):
 
-        character_list = {'A':1,'B':2,'C':3,'D':4,'E':4,'F':choice_of_element}
+        character_dict = {'A':1,'B':2,'C':3,'D':4,'E':5,'F':choice_of_element}
         
         # iterate through characters list and make characters
-        for key, value in character_list.items():
+        for key, value in character_dict.items():
+
             # inspection
             print(key, value)
 
             # creaate object
             this_character = DoN_Object( avatar=key, element=value, inventory=[], blurb="Character" )
             
-            # put object in character_dictionary
-            self.character_dictionary[key] = this_character
+            # put object in character_and_item_dictionary
+            self.character_and_item_dictionary[key] = this_character
+
+
+    ##################
+    # Treasure Chests
+    ##################
+
+
+    def make_chests(self):
+        # note: self.print_dungeon_map() will print this
+        
+        # for key, value in self.room_dictionary.items():
+        for this_room_number, this_room_object in self.room_dictionary.items():
+
+            # reset
+            this_chest = None
+            
+            # create object
+            this_chest = DoN_Object( avatar="@", inventory=[], blurb="chest", micro_location=(2,9))
+
+            # add to inventory
+            this_room_object.inventory.append(this_chest)
+
+            # to do: add randomize location? (pick and check spot empty?)
+            # # add location in room
+            # this_room_object.micro_location = (2,9)
+
+            # put chest object in character_and_item_dictionary
+            this_room_object.character_and_item_dictionary["treasure_chest"] = this_chest
+
+
 
 
     ################
